@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Viaoda+Libre&display=swap');
+
+body{
+    font-family: "Viaoda Libre", serif;
+    margin: 0;
+    --heigth-top-footer: 4rem;
+ 
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    margin: auto auto auto 100px;
+    
+}
+.painel{
+    width: 100%;
+    height: calc(100vh + 4rem);
+}
+.navegador ul{
+   display: flex;
+   gap: 100px;
+   padding: .5em;
+   margin-right: 2em;
+
+   
+}
+.topo{
+    background-color:#162028;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    height: var(--heigth-top-footer);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+li{
+    list-style: none;
+    justify-content: space-around;
+    
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #425564;
+    font-size: 1.2em;
+    padding: 6px;
+}
+.btn:hover{
+    text-decoration: underline;
+}
+
+.menu-principal{
+    width: 60%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 40px;
+}
+.card p, h2{
+    text-align: center;
+    margin: 10px auto auto auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+p{
+    text-align: justify;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.card-flexs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+
+}
+
+.fundo{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-position-x: right;
+    background-color:#003d52;
+
+    height: 100vh;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+.title{
+    width: 60%;
+    margin: 0 auto;
+}
+.rodape{
+    background-color:#0b171f;
+    padding: 1em;
+    text-align: center;
+    color: #6f8597;
+}
